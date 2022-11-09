@@ -1,8 +1,16 @@
-
-import { Link } from 'react-router-dom';
-
+import {useContext} from 'react';
+import {Link} from 'react-router-dom';
+import {AuthContext} from '../../../Context/AuthProvider/AuthProvider';
 
 const Headers = () => {
+    const {logOut, user} = useContext(AuthContext);
+    console.log(user)
+
+    const handleLogout = () => {
+        logOut()
+            .then()
+            .catch()
+    }
 
     return (
         <div className="navbar bg-base-100">
@@ -26,7 +34,7 @@ const Headers = () => {
                         <li>
                             <Link>Home</Link>
                         </li>
-                        
+
                         <li>
                             <Link>Blog</Link>
                         </li>
@@ -39,19 +47,38 @@ const Headers = () => {
                     <li>
                         <Link to='/'>Home</Link>
                     </li>
-                    
+
                     <li>
                         <Link>Blog</Link>
                     </li>
                 </ul>
             </div>
             <div className="navbar-end">
-                <button className="btn mr-4">
-                    <Link to='/Login'>Log In</Link>
-                </button>
-                <button className="btn">
-                    <Link to="/Signup">Sign Up</Link>
-                </button>
+                {
+                user?.uid? 
+                    <> 
+
+                        <>
+                            <img src={user.photoURL} className="rounded-full w-12 mr-2" alt="" />
+                        </>
+
+                        <button className="btn" onClick={handleLogout}>
+                            logOut
+                        </button> 
+                        
+                    </>
+                    :
+                    <>
+
+                        <button className="btn mr-4">
+                            <Link to='/Login '>Log In</Link>
+                        </button>
+                        <button className="btn">
+                            <Link to="/Signup ">Sign Up</Link>
+                        </button>
+                    </>
+                }
+
             </div>
         </div>
     );

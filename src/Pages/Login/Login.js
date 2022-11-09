@@ -1,9 +1,10 @@
 import React, {useContext, useState} from 'react';
 import {Link} from 'react-router-dom';
 import {AuthContext} from '../../Context/AuthProvider/AuthProvider';
+import { FaGoogle } from "react-icons/fa";
 
 const Login = () => {
-    const {login} = useContext(AuthContext);
+    const {login,googleSignup} = useContext(AuthContext);
     const [success,
         setSuccess] = useState(false);
     const [unsuccess,
@@ -27,11 +28,28 @@ const Login = () => {
             setSuccess(false);
         })
     }
+
+
+        const handleGoogleSign=()=>{
+            googleSignup()
+            .then(result=>{
+                const user=result.user;
+                console.log(user)
+            })
+            .catch(error=>{
+                console.error(error);
+            })
+        }
+    
     return (
         <div className="hero min-h-screen bg-base-200">
             <div className="hero-content w-full flex-col lg:flex-row-reverse">
                 <div className="text-center lg:text-left w-1/2">
                     <h1 className="text-5xl font-bold">Login now!</h1>
+
+                    <button onClick={handleGoogleSign} className="btn btn-primary mt-5">
+                        <FaGoogle className='text-xl mr-2'></FaGoogle> <span>Sign UP with Google</span>
+                    </button>
 
                 </div>
                 <div className="card flex-shrink-0 w-1/2 max-w-sm shadow-2xl bg-base-100">
