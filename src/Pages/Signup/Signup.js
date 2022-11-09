@@ -92,7 +92,7 @@ const Signup = () => {
                                 type="text"
                                 name='photoURL'
                                 placeholder="Photo URL"
-                                className="input input-bordered"/>
+                                className="input input-bordered" required/>
                         </div>
 
                         <div className="form-control">
@@ -103,7 +103,7 @@ const Signup = () => {
                                 type="email"
                                 name='email'
                                 placeholder="email"
-                                className="input input-bordered"/>
+                                className="input input-bordered" required/>
                         </div>
 
                         <div className="form-control">
@@ -114,7 +114,7 @@ const Signup = () => {
                                 type="password"
                                 name='password'
                                 placeholder="password"
-                                className="input input-bordered"/>
+                                className="input input-bordered" required/>
                             <label className="label">
                                 <Link href="#" className="label-text-alt link link-hover">Forgot password?</Link>
                             </label>
