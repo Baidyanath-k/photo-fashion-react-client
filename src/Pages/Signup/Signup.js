@@ -5,7 +5,7 @@ import { FaGoogle } from "react-icons/fa";
 
 
 const Signup = () => {
-    const {createUser,googleSignup} = useContext(AuthContext);
+    const {createUser,googleSignup,updateUserProfile} = useContext(AuthContext);
     const [success,
         setSuccess] = useState(false);
     const [unsuccess,
@@ -17,10 +17,12 @@ const Signup = () => {
         const name = form.name.value;
         const email = form.email.value;
         const password = form.password.value;
+        const photoURL=form.photoURL.value;
         console.log(name, email, password)
 
         createUser(email, password).then(result => {
             const user = result.user;
+            handleProfile(name,photoURL);
             setSuccess(true);
             setUnsuccess(false);
             form.reset();
@@ -44,6 +46,19 @@ const Signup = () => {
     }
 
 
+    const handleProfile=(name,photoURL)=>{
+        const profile={
+            displayName:name,
+            photoURL:photoURL
+        }
+        updateUserProfile(profile)
+        .then(  ()=>{} )
+        .catch(error=>{
+            console.error(error)
+        })
+    }
+
+
     return (
         <div className="hero min-h-screen bg-base-200">
             <div className="hero-content w-full flex-col lg:flex-row-reverse">
@@ -63,6 +78,20 @@ const Signup = () => {
                                 type="text"
                                 name='name'
                                 placeholder="Name"
+                                className="input input-bordered"/>
+                        </div>
+
+
+                        <div className="form-control">
+                            
+                            <label>
+                                <span className="label-text">Photo URL</span>
+                            </label>
+                            
+                            <input
+                                type="text"
+                                name='photoURL'
+                                placeholder="Photo URL"
                                 className="input input-bordered"/>
                         </div>
 
