@@ -1,7 +1,6 @@
 import React from 'react';
 
 const CarouselItem = ({data}) => {
-    console.log(data)
     const{id,image,next,prev}=data;
     return (
         <div id={`slide${id}`} className="carousel-item relative w-full h-full">
