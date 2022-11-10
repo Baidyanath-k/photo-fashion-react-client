@@ -58,17 +58,48 @@ const Blogs = () => {
                 </p>
             </div>
 
-            <div className="sql-nosql my-5 p-4 border-solid border-2 border-slate-600">
+            <div className="js-node my-5 p-4 border-solid border-2 border-slate-600">
                 <h3 className='py-2 font-bold text-xl'>What is the difference between javascript and NodeJS?</h3>
 
                 <p className='py-2'>
                     <span className='font-bold text-xl'>Javascript:</span>
-                    Javascript is a programming language that is used for writing scripts on the website. Javascript can only be run in the browsers. It is basically used on the client-side. Javascript is capable enough to add HTML and play with the DOM. Javascript can run in any browser engine as like JS core in safari and Spidermonkey in Firefox. Javascript is used in frontend development. Some of the javascript frameworks are RamdaJS, TypedJS, etc. It is the upgraded version of ECMA script that uses Chrome’s V8 engine written in C++. 
+                    Javascript is a programming language that is used for writing scripts on the
+                    website. Javascript can only be run in the browsers. It is basically used on the
+                    client-side. Javascript is capable enough to add HTML and play with the DOM.
+                    Javascript can run in any browser engine as like JS core in safari and
+                    Spidermonkey in Firefox. Javascript is used in frontend development. Some of the
+                    javascript frameworks are RamdaJS, TypedJS, etc. It is the upgraded version of
+                    ECMA script that uses Chrome’s V8 engine written in C++.
                 </p>
 
                 <p className='py-2'>
                     <span className='font-bold text-xl'>NodeJS:</span>
-                    NodeJS is a Javascript runtime environment.We can run Javascript outside the browser with the help of NodeJS.It is mostly used on the server-side.Nodejs does not have capability to add HTML tags. V8 is the Javascript engine inside of node.js that parses and runs Javascript. Nodejs is used in server-side development. Some of the Nodejs modules are Lodash, express etc. These modules are to be imported from npm. Nodejs is written in C, C++ and Javascript.</p>
+                    NodeJS is a Javascript runtime environment.We can run Javascript outside the
+                    browser with the help of NodeJS.It is mostly used on the server-side.Nodejs does
+                    not have capability to add HTML tags. V8 is the Javascript engine inside of
+                    node.js that parses and runs Javascript. Nodejs is used in server-side
+                    development. Some of the Nodejs modules are Lodash, express etc. These modules
+                    are to be imported from npm. Nodejs is written in C, C++ and Javascript.</p>
+            </div>
+
+            <div className="js-node my-5 p-4 border-solid border-2 border-slate-600">
+                <h3 className='py-2 font-bold text-xl'>How does NodeJS handle multiple requests at the same time?</h3>
+
+                <p className='py-2'>
+                    <span className='font-bold text-xl'>Ans:</span>
+                    We know NodeJS application is single-threaded. Say, if processing involves
+                    request A that takes 10 seconds, it does not mean that a request which comes
+                    after this request needs to wait 10 seconds to start processing because NodeJS
+                    event loops are only single-threaded. The entire NodeJS architecture is not
+                    single-threaded. How NodeJS handle multiple client requests? NodeJS receives
+                    multiple client requests and places them into EventQueue. NodeJS is built with
+                    the concept of event-driven architecture. NodeJS has its own EventLoop which is
+                    an infinite loop that receives requests and processes them. EventLoop is the
+                    listener for the EventQueue. If NodeJS can process the request without I/O
+                    blocking then the event loop would itself process the request and sends the
+                    response back to the client by itself. But, it is possible to process multiple
+                    requests parallelly using the NodeJS cluster module or worker_threads module.
+                </p>
             </div>
         </div>
     );
