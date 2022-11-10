@@ -1,25 +1,39 @@
 import React from 'react';
+import 'react-photo-view/dist/react-photo-view.css';
+import { PhotoProvider, PhotoView } from 'react-photo-view';
 
 const Service = ({service}) => {
     console.log(service);
-    // const {details, image_url, price, title} = service;
     return (
         <div className="card w-96 bg-base-100 shadow-xl">
             <figure className="px-10 pt-10">
-                <img src={service?.image_url} alt="" className="rounded-xl"/>
+                <PhotoProvider>
+                    <PhotoView src={service?.image_url}>
+                        <img src={service?.image_url} alt="" className="rounded-xl"/>
+                    </PhotoView>
+                </PhotoProvider>
+                
             </figure>
             <div className="card-body items-center text-center">
-                <h2 className="card-title">{service?.title}</h2>
+                <h2 className="card-title text-center">{service?.title}</h2>
                 
-                <div className="card-detail">
-                    {
-                         service?.details.slice(0,100).concat("...")
-                    }
-                </div>
-                    
+                    <div className="card-paragraph">
+                        {service?.details
+                                .slice(0, 100)
+                                .concat("...")
+                        }
+                    </div>
+
+                    <div className="card-rate-price py-8 w-full flex justify-between">
+                        <h3 className='font-bold'>Amount: {service.price}tk</h3>
+                        <h3 className='font-bold'>Rating: {service.rating.number}</h3>
+                    </div>
                 
-                <div className="card-actions">
+
+                <div className="card-actions w-full flex justify-between">
+                    <button className="btn btn-primary">Details</button>
                     <button className="btn btn-primary">Buy Now</button>
+                    
                 </div>
             </div>
         </div>
