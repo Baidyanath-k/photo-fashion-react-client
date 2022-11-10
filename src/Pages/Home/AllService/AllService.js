@@ -4,7 +4,7 @@ import Allservices from '../../Allservices/Allservices';
 const AllService = () => {
     const[allservice,setAllservice]=useState([])
     useEffect(()=>{
-        fetch(`http://localhost:5000/allservices`)
+        fetch(`https://assignment-eleven-server-blue.vercel.app/allservices`)
         .then(res=>res.json())
         .then(data=>setAllservice(data))
     },[])

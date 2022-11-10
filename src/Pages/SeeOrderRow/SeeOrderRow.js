@@ -5,7 +5,7 @@ const SeeOrderRow = ({order}) => {
     const[serOrder,setSerorder]=useState();
 
     useEffect(()=>{
-        fetch(`http://localhost:5000/services/${service}`)
+        fetch(`https://assignment-eleven-server-blue.vercel.app/services/${service}`)
         .then(res=>res.json())
         .then(data=>setSerorder(data))
     },[service])

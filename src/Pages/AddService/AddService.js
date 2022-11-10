@@ -11,7 +11,7 @@ const AddService = () => {
         const users={name,email,message};
         event.target.reset();
 
-        fetch('http://localhost:5000/allservices',{
+        fetch('https://assignment-eleven-server-blue.vercel.app/allservices',{
             method:'POST',
             headers:{
                 "content-type":"application/json",

@@ -36,7 +36,7 @@ export const router=createBrowserRouter([
             {
                 path:'/services/:id',
                 element: <PrivateRoutes><Details></Details></PrivateRoutes>,
-                loader:({params})=>fetch(`http://localhost:5000/services/${params.id}`)
+                loader:({params})=>fetch(`https://assignment-eleven-server-blue.vercel.app/services/${params.id}`)
             },
             {
                 path:'/allservice',
@@ -49,7 +49,7 @@ export const router=createBrowserRouter([
             {
                 path:'/checkouts/:id',
                 element:<PrivateRoutes><CheckOuts></CheckOuts></PrivateRoutes>,
-                loader:({params})=>fetch(`http://localhost:5000/checkouts/${params.id}`)
+                loader:({params})=>fetch(`https://assignment-eleven-server-blue.vercel.app/${params.id}`)
             },
             {
                 path:'/orders',

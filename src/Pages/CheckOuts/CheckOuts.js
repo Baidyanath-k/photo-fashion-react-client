@@ -30,7 +30,7 @@ const CheckOuts = () => {
         }
 
 
-        fetch('http://localhost:5000/orders',{
+        fetch('https://assignment-eleven-server-blue.vercel.app/orders',{
             method:'POST',
             headers:{
                 'content-type':'application/json'
