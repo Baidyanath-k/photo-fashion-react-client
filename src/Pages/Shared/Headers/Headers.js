@@ -56,14 +56,15 @@ const Headers = () => {
                 {
                 user?.uid? 
                     <> 
+
                         <>
-                            <button className='btn btn-ghost mr-5'>
-                                <Link>Add Service</Link>
+                            <button className='btn btn-ghost mr-2'>
+                                <Link to='/orders'>Orders</Link>
                             </button>
                         </>
                         
                         <>
-                            <button className='btn btn-ghost mr-5'>
+                            <button className='btn btn-ghost mr-2'>
                                 <Link to='/myreviews'>My Review</Link>
                             </button>
                         </>

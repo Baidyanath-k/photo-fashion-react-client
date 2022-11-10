@@ -6,6 +6,7 @@ import Details from "../Pages/Details/Details";
 import AllService from "../Pages/Home/AllService/AllService";
 import Home from "../Pages/Home/Home/Home";
 import Login from "../Pages/Login/Login";
+import SeeOrders from "../Pages/SeeOrders/SeeOrders";
 import Signup from "../Pages/Signup/Signup";
 import PrivateRoutes from "./PrivateRoutes";
 
@@ -47,8 +48,12 @@ export const router=createBrowserRouter([
             },
             {
                 path:'/checkouts/:id',
-                element:<CheckOuts></CheckOuts>,
+                element:<PrivateRoutes><CheckOuts></CheckOuts></PrivateRoutes>,
                 loader:({params})=>fetch(`http://localhost:5000/checkouts/${params.id}`)
+            },
+            {
+                path:'/orders',
+                element:<PrivateRoutes><SeeOrders></SeeOrders></PrivateRoutes>
             }
         ]
     }
