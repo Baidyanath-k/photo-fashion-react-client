@@ -21,6 +21,8 @@ const Services = () => {
                 ></Service>)
             }
             </div>
+
+            <button className="btn btn-ghost m-auto text-center w-full">See All</button>
             
         </div>
     );
