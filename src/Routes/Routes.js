@@ -1,4 +1,5 @@
 import Main from "../Layout/Main";
+import AddService from "../Pages/AddService/AddService";
 import Blogs from "../Pages/Blogs/Blogs";
 import Details from "../Pages/Details/Details";
 import AllService from "../Pages/Home/AllService/AllService";
@@ -38,6 +39,10 @@ export const router=createBrowserRouter([
             {
                 path:'/allservice',
                 element:<PrivateRoutes><AllService></AllService></PrivateRoutes>
+            },
+            {
+                path:'/myreviews',
+                element:<AddService></AddService>
             }
         ]
     }

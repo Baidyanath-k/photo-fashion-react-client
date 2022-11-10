@@ -56,6 +56,17 @@ const Headers = () => {
                 {
                 user?.uid? 
                     <> 
+                        <>
+                            <button className='btn btn-ghost mr-5'>
+                                <Link>Add Service</Link>
+                            </button>
+                        </>
+                        
+                        <>
+                            <button className='btn btn-ghost mr-5'>
+                                <Link to='/myreviews'>My Review</Link>
+                            </button>
+                        </>
 
                         <>
                             <img src={user.photoURL} className="rounded-full w-12 mr-2" alt="" />
