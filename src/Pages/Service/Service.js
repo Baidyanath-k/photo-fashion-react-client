@@ -1,9 +1,9 @@
 import React from 'react';
 import 'react-photo-view/dist/react-photo-view.css';
 import { PhotoProvider, PhotoView } from 'react-photo-view';
+import { Link } from 'react-router-dom';
 
 const Service = ({service}) => {
-    console.log(service);
     return (
         <div className="card w-96 bg-base-100 shadow-xl">
             <figure className="px-10 pt-10">
@@ -31,8 +31,10 @@ const Service = ({service}) => {
                 
 
                 <div className="card-actions w-full flex justify-between">
-                    <button className="btn btn-primary">Details</button>
-                    <button className="btn btn-primary">Buy Now</button>
+                    <button className="btn btn-ghost">
+                        <Link to={`/services/${service._id}`}>Details</Link>
+                    </button>
+                    <button className="btn btn-ghost">Buy Now</button>
                     
                 </div>
             </div>
