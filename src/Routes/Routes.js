@@ -1,6 +1,7 @@
 import Main from "../Layout/Main";
 import AddService from "../Pages/AddService/AddService";
 import Blogs from "../Pages/Blogs/Blogs";
+import CheckOuts from "../Pages/CheckOuts/CheckOuts";
 import Details from "../Pages/Details/Details";
 import AllService from "../Pages/Home/AllService/AllService";
 import Home from "../Pages/Home/Home/Home";
@@ -43,6 +44,11 @@ export const router=createBrowserRouter([
             {
                 path:'/myreviews',
                 element:<AddService></AddService>
+            },
+            {
+                path:'/checkouts/:id',
+                element:<CheckOuts></CheckOuts>,
+                loader:({params})=>fetch(`http://localhost:5000/checkouts/${params.id}`)
             }
         ]
     }

@@ -34,7 +34,11 @@ const Service = ({service}) => {
                     <button className="btn btn-ghost">
                         <Link to={`/services/${service._id}`}>Details</Link>
                     </button>
-                    <button className="btn btn-ghost">Buy Now</button>
+
+                    <button className="btn btn-ghost">
+                    <Link to={`/checkouts/${service._id}`}>Buy Now</Link>
+                    </button>
+                    
                     
                 </div>
             </div>

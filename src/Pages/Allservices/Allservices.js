@@ -3,6 +3,7 @@ import { PhotoProvider, PhotoView } from 'react-photo-view';
 import { Link } from 'react-router-dom';
 
 const Allservices = ({ser}) => {
+    const{_id}=ser;
     console.log(ser)
     return (
         <div className="card w-96 bg-base-100 shadow-xl">
@@ -34,9 +35,11 @@ const Allservices = ({ser}) => {
                     <button className="btn btn-ghost">
                         <Link to={`/services/${ser._id}`}>Details</Link>
                     </button>
-                    <button className="btn btn-ghost">Buy Now</button>
-                    
+                <button className="btn btn-ghost">
+                    <Link to={`/checkouts/${_id}`}>Buy Now</Link>
+                </button>
                 </div>
+                
             </div>
         </div>
     );
