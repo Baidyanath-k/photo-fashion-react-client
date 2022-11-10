@@ -11,7 +11,7 @@ const PrivateRoutes = ({children}) => {
     
     if(loading){
         // return <Spinner animation="border" variant="primary" />
-        <Audio
+       return <Audio
         height="80"
         width="80"
         radius="9"
