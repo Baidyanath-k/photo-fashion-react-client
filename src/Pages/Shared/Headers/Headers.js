@@ -31,7 +31,7 @@ const Headers = () => {
                         tabIndex={0}
                         className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
                         <li>
-                            <Link>Home</Link>
+                            <Link to='/'>Home</Link>
                         </li>
 
                         <li>
@@ -39,12 +39,12 @@ const Headers = () => {
                         </li>
                     </ul>
                 </div>
-                <Link className="btn btn-ghost normal-case text-xl">Photo-Fashion</Link>
+                <Link className="btn btn-ghost normal-case text-xl" to="/">Photo-Fashion</Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal p-0">
                     <li>
-                        <Link to='/'>Home</Link>
+                    <Link to='/'>Home</Link>
                     </li>
 
                     <li>
