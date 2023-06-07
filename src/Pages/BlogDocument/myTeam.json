@@ -1,0 +1,66 @@
+[
+  {
+    "name": "John Abraham",
+    "title": "Photographer",
+    "mobile": "01785-525258",
+    "facebookLink": "https://www.facebook.com/help/2053403608222571",
+    "linkedin": "https://evaboot.com/blog/linkedin-url-example",
+    "img": "https://i.ibb.co/dtKkzQc/phtographer-1.png"
+  },
+  {
+    "name": "Nicholas Allison",
+    "title": "Editor",
+    "mobile": "01723-566558",
+    "facebookLink": "https://www.facebook.com/help/2053403608222571",
+    "linkedin": "https://evaboot.com/blog/linkedin-url-example",
+    "img": "https://i.ibb.co/VLfxWsv/editor.png"
+  },
+  {
+    "name": "Olivia Hanson",
+    "title": "Editor",
+    "mobile": "01723-52566558",
+    "facebookLink": "https://www.facebook.com/help/2053403608222571",
+    "linkedin": "https://evaboot.com/blog/linkedin-url-example",
+    "img": "https://i.ibb.co/VWvYT9x/editor-2.png"
+  },
+  {
+    "name": "Evelyn Haney",
+    "title": "Technician",
+    "mobile": "01752-965665",
+    "facebookLink": "https://www.facebook.com/help/2053403608222571",
+    "linkedin": "https://evaboot.com/blog/linkedin-url-example",
+    "img": "https://i.ibb.co/y8mQ0j1/technician.jpg"
+  },
+  {
+    "name": "Isabela Sids",
+    "title": "Photographer",
+    "mobile": "01752-228665",
+    "facebookLink": "https://www.facebook.com/help/2053403608222571",
+    "linkedin": "https://evaboot.com/blog/linkedin-url-example",
+    "img": "https://i.ibb.co/crGhS04/photographer-2.png"
+  },
+  {
+    "name": "Luna Isle",
+    "title": "Technician",
+    "mobile": "01712-520065",
+    "facebookLink": "https://www.facebook.com/help/2053403608222571",
+    "linkedin": "https://evaboot.com/blog/linkedin-url-example",
+    "img": "https://i.ibb.co/ZYKjhhP/technician.jpg"
+  },
+  {
+    "name": "William Henry",
+    "title": "Photographer",
+    "mobile": "01712-596365",
+    "facebookLink": "https://www.facebook.com/help/2053403608222571",
+    "linkedin": "https://evaboot.com/blog/linkedin-url-example",
+    "img": "https://i.ibb.co/P6ZGtTy/photographer-4.png"
+  },
+  {
+    "name": "James Privation",
+    "title": "Photographer",
+    "mobile": "01712-596525",
+    "facebookLink": "https://www.facebook.com/help/2053403608222571",
+    "linkedin": "https://evaboot.com/blog/linkedin-url-example",
+    "img": "https://i.ibb.co/JRf43qg/photographer-3.png"
+  }
+]

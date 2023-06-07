@@ -1,0 +1,211 @@
+[
+  {
+    "id": 1,
+    "header": "TOP 10 QUALITIES OF A GREAT PHOTOGRAPHER",
+    "quality": [
+      {
+        "title": "AMBITIOUS NATURE",
+        "img": "https://i.ibb.co/nQzTxyf/nature.jpg",
+        "details": "Photography, like many other creative professions, is a highly competitive field. You’ll need the ambition to keep going and striving for the best if you’re going to make it."
+      },
+      {
+        "title": "DETAIL ORIENTED",
+        "img": "https://i.ibb.co/5RkyFVW/detail.png",
+        "details": "A big part of great photography is the ability to focus on the tiny details as well as the big picture. This means capturing the tiniest details when it’s necessary, and knowing when to edit the tiniest details out when they’re not adding to the picture."
+      },
+      {
+        "title": "COORDINATION",
+        "img": "https://i.ibb.co/nLhCRgd/coordition.jpg",
+        "details": "If you don’t have good hand-eye coordination and a steady hand, you better start doing as many exercises as possible to help develop these skills now. This is vital to photography careers."
+      },
+      {
+        "title": "CREATIVITY",
+        "img": "https://i.ibb.co/51p2Ydf/creativity.jpg",
+        "details": "This one should be obvious. You either have it, or you don’t. However, photography school can often help to cultivate what you have if you feel your creative skills are somewhat lacking."
+      },
+      {
+        "title": "LEGAL KNOWLEDGE",
+        "img": "https://i.ibb.co/jHgnX6R/knowledge.jpg",
+        "details": "This may not seem so obvious. Photographers do, however, need to be knowledgeable of certain laws, particularly those related to copyright issues and contracts."
+      },
+      {
+        "title": "KNACK FOR MARKETING",
+        "img": "https://i.ibb.co/X4YKgzq/marketing.jpg",
+        "details": "You can’t just expect to sit back and let the work come to you. You need to get your name out there and have a professional looking portfolio to let people know what you can do."
+      },
+      {
+        "title": "NETWORKING KNOW-HOW",
+        "img": "https://i.ibb.co/5kgg2KW/networking.jpg",
+        "details": "Yes, you will need to network and “schmooze” to make it in the photography biz, regardless of whatever professional level you have your sights set on."
+      },
+      {
+        "title": "MIND FOR BUSINESS",
+        "img": "https://i.ibb.co/2cH3rqK/business.jpg",
+        "details": "This is a profession first and foremost, so it’s necessary to have the business skills to manage your career and make the decisions that will benefit your bottom line."
+      },
+      {
+        "title": "PEOPLE PERSON",
+        "img": "https://i.ibb.co/98jLbCk/people-Person.jpg",
+        "details": "You’ve got to have people skills to make it in a competitive, creative field like photography. Being personable will get you far in this profession."
+      },
+      {
+        "title": "TECHNICAL SKILLS",
+        "img": "https://i.ibb.co/DzZQ939/technical.jpg",
+        "details": "This is a no brainier. Photography is all about using the best equipment, tools, and software and knowing how to use them all correctly."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "header": "10 Characteristics of Great Photos",
+    "quality": [
+      {
+        "title": "A Good Photo Has a Compelling Composition",
+        "img": "https://i.ibb.co/qCNt9vk/compositon.jpg",
+        "details": "Most basic photography guides include common compositional concepts like the rule of thirds and rules of symmetry, but what other techniques can we use to create compelling compositions? Some less common techniques involve negative space, leading lines, depth of field, and framing. I mention this rule first because it doesn’t matter which particular style, technique, or rule you follow, so long as every image is thoughtfully composed. There will be times when composition takes a back seat in order to just grab the shot, but it should otherwise be considered whenever possible."
+      },
+      {
+        "title": "Display Of Emotion Can Create a Good Photo",
+        "img": "https://i.ibb.co/d5FJnRv/emotion.jpg",
+        "details": "As human beings, we are drawn to emotion. Whether we’re laughing or crying, emotion ties each and everyone of us together. Images that capture genuine displays of emotion often prove timeless, and these meaningful moments will always capture the audience’s attention. The image above was captured during a Vidaai, which marks the end of the Hindu wedding ceremony and the beginning of the bride and groom’s journey as husband and wife. Vidaais can be intensely emotional as the bride’s friends and family wish her farewell (as illustrated above)."
+      },
+      {
+        "title": "Storytelling Makes a Good Photo",
+        "img": "https://i.ibb.co/xL2sGY9/storytelling.jpg",
+        "details": "Some of the greatest images simply tell a story. Rather than relying on great composition or featuring other unique characteristics, they instead focus on storytelling. Some of the best storytelling images are found in the news and other sources of photojournalism. From the triumphant shout of a newly crowned sports champion to a protester standing in front of a tank in the Tiananmen Square massacre, these images capture and freeze moments in history for everyone to become a witness. Here are a few examples from weddings we’ve photographed."
+      },
+      {
+        "title": "Elliptical Storytelling",
+        "img": "https://i.ibb.co/nLH5gQj/elliptical.jpg",
+        "details": "Most images that tell a story are already worthwhile, but images that tell stories while leaving something to the viewer’s imagination are even better. You’ve probably heard people say that the book is always better than the movie because it allows us to use our imagination to create the most amazing and personalized special effects in our minds. Images that leave something to the imagination tend to do the same thing. They offer just enough information to fuel our imagination as we fill in the missing pieces. This image was shot at a local airport during an engagement shoot. While we can’t be sure of the subjects’ identities, we’re given enough clues to imagine they’re embarking on a long-distance trip. We don’t know where they’re going or under what circumstances, but that’s also why the image works so well. The limited clues let you imagine the rest."
+      },
+      {
+        "title": "Iconic Moments Make Good Photos",
+        "img": "https://i.ibb.co/WGPf3cm/iconic.jpg",
+        "details": "When capturing an iconic moment, you are capturing a moment created or modeled after meaningful moments in pop culture and/or history. Whether it is a reproduction of a scene from a classic movie or a moment based around something trendy, these shots allow the audience to feel emotionally connected to the moment within the imagery. The couples portrait above recalls the golden age of Hollywood through its use of dapper outfits, editorial posing, dramatic lighting, and on-set props (like the retro-style light, which was part of the decor in a room at the Hollywood Roosevelt Hotel)."
+      },
+      {
+        "title": "A Good Photo Often Captures Unique Moments",
+        "img": "https://i.ibb.co/DzZQ939/technical.jpg",
+        "details": "What’s an easy way to create an interesting image? Simple, shoot something that is unique to the respective audience. For example, while a Christian wedding may seem quite common in the United States, a traditional Hindu wedding isn’t so common and therefore is automatically more interesting to an audience in the states. Other unique moments might reveal themselves during unusual events or at one-of-a-kind locations. During his pre-wedding baraat, a Sikh bridegroom peeks through the strands of his Sehra to take in the sights. While baraats are quite common in Hindu and Sikh weddings, they’re unique to those who’ve never witnessed them. In addition, the ornate and colorful clothing worn by most in attendance make for unique photos."
+      },
+      {
+        "title": "Juxtaposed/Contrasting Concepts",
+        "img": "https://i.ibb.co/1bH20HP/Juxtaposed.jpg",
+        "details": "Some of the most interesting images juxtapose (compare) completely contrasting objects and concepts. Examples of this might include a beautiful bride in a completely white and flowing wedding dress shot in front of a background littered with trash and graffiti, thus juxtaposing beauty and purity with ugly and uncleanliness. Or perhaps a homeless person downtown sitting with all of his belongings with a glowing Merryl Lynch sign in the background, contrasting utter poverty with a symbol of wealth and power. See the images below for more examples."
+      },
+      {
+        "title": "Unique Lighting and Color Can Make a Good Photo",
+        "img": "https://i.ibb.co/RT3kd5n/unique-Lignting.jpg",
+        "details": "Lighting and color is really where a lot of great images start. Great lighting can turn a mundane scene into an amazingly colorful scene full of texture and life. In nature, these types of scenes happen all the time during sunrise and sunset, and while we can’t control the lighting of those fleeting moments, if you happen to be in the right place at the right time, you just may be able to capture it (see point number six above). However, we can control and create unique lighting on our own with the proper knowledge using off camera lighting, flashes and more."
+      },
+      {
+        "title": "Attention To Detail",
+        "img": "https://i.ibb.co/CJF96qt/attention-To-Detail.jpg",
+        "details": "In our time and society where everything is about speed and efficiency, images that capture overlooked detail can be enough to make someone stop to smell the roses. While pictures of unique and unseen detail is amazing and breathtaking, you can often get the same reaction out of your audience by simply shooting the detail in everyday life. This detail image of a bride’s shoes was captured on a hotel tabletop during a wedding in Huntington Beach. The dramatic lighting and reflective surface elevate this photo to a product shot you might expect to see in an ad for the shoes."
+      },
+      {
+        "title": "Unique Perspective",
+        "img": "https://i.ibb.co/LhwNSc0/unique-Perspective.jpg",
+        "details": "Most of us live our lives viewing the world with relatively the same perspective. This is what makes unique perspectives so interesting to the audience. Instead of shooting a child from an adult’s perspective, why not get down low and shoot them from the child’s perspective. Very low bottom-up and higher top-down can often create a much more unique and interesting image. This image was shot during an event as some of the kids were having a little party of their own. What better way to shoot kids, then to shoot it from their perspective. You can imagine how this shot wouldn’t be nearly as special were it shot from a standing (grown up) perspective."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "header": "10 Top Photography Composition Rules",
+    "quality": [
+      {
+        "title": "Rule of Thirds",
+        "img": "https://i.ibb.co/6WyJ2Vb/Ruleof-Thirds.jpg",
+        "details": "Imagine that your image is divided into 9 equal segments by 2 vertical and 2 horizontal lines. The rule of thirds says that you should position the most important elements in your scene along these lines, or at the points where they intersect. Doing so will add balance and interest to your photo. Some cameras even offer an option to superimpose a rule of thirds grid over the LCD screen, making it even easier to use."
+      },
+      {
+        "title": "Balancing Elements",
+        "img": "https://i.ibb.co/Hp3hfmc/Balancing-Elements.jpg",
+        "details": "Placing your main subject off-centre, as with the rule of thirds, creates a more interesting photo, but it can leave a void in the scene which can make it feel empty. You can achieve a balanced composition and even out the main subject's 'visual weight' by including another object of lesser importance to fill the space."
+      },
+      {
+        "title": "Leading Lines",
+        "img": "https://i.ibb.co/ccK72JC/Leading-Lines.jpg",
+        "details": "When we look at a photo our eye is naturally drawn along lines. By thinking about how you place these leading lines in your composition, you can affect the way we view the image, pulling us into the picture, towards the subject, or on a journey 'through' the scene. There are many different types of line - straight, diagonal, curvy, zigzag, radial etc - and each can be used to enhance our photo's composition."
+      },
+      {
+        "title": "Symmetry and Patterns",
+        "img": "https://i.ibb.co/HVymmj0/Symmetryand-Patterns.jpg",
+        "details": "We are surrounded by symmetry and patterns, both natural and man-made. They can make for very eye-catching compositions, particularly in situations where they are not expected. Another great way to use them is to break the symmetry or pattern in some way, introducing tension and a focal point to the scene."
+      },
+      {
+        "title": "Viewpoint",
+        "img": "https://i.ibb.co/ySr6hjh/Viewpoint.jpg",
+        "details": "Before photographing your subject, take time to think about where you will shoot it from. Our viewpoint has a massive impact on the composition of our photo, and as a result it can greatly affect the message that the shot conveys. Rather than just shooting from eye level, consider photographing from high above, down at ground level, from the side, from the back, from a long way away, from very close up, and so on."
+      },
+      {
+        "title": "Background",
+        "img": "https://i.ibb.co/0FFd24j/Background.jpg",
+        "details": "How many times have you taken what you thought would be a great shot, only to find that the final image lacks impact because the subject blends into a busy background? The human eye is excellent at distinguishing between different elements in a scene, whereas a camera has a tendency to flatten the foreground and background, and this can often ruin an otherwise great photo. Thankfully this problem is usually easy to overcome at the time of shooting - look around for a plain and unobtrusive background and compose your shot so that it doesn't distract or detract from the subject."
+      },
+      {
+        "title": "Depth",
+        "img": "https://i.ibb.co/JCj0RnS/Depth.jpg",
+        "details": "Because photography is a two-dimensional medium, we have to choose our composition carefully to conveys the sense of depth that was present in the actual scene. You can create depth in a photo by including objects in the foreground, middle ground and background. Another useful composition technique is overlapping, where you deliberately partially obscure one object with another. The human eye naturally recognises these layers and mentally separates them out, creating an image with more depth."
+      },
+      {
+        "title": "Framing",
+        "img": "https://i.ibb.co/frNVzHr/Framing.jpg",
+        "details": "The world is full of objects which make perfect natural frames, such as trees, archways and holes. By placing these around the edge of the composition you help to isolate the main subject from the outside world. The result is a more focused image which draws your eye naturally to the main point of interest."
+      },
+      {
+        "title": "Cropping",
+        "img": "https://i.ibb.co/7rtwVQ6/Cropping.jpg",
+        "details": "Often a photo will lack impact because the main subject is so small it becomes lost among the clutter of its surroundings. By cropping tight around the subject you eliminate the background 'noise', ensuring the subject gets the viewer's undivided attention"
+      },
+      {
+        "title": "Experimentation",
+        "img": "https://i.ibb.co/pzBSXph/Experimentation.jpg",
+        "details": "With the dawn of the digital age in photography we no longer have to worry about film processing costs or running out of shots. As a result, experimenting with our photos' composition has become a real possibility; we can fire off tons of shots and delete the unwanted ones later at absolutely no extra cost. Take advantage of this fact and experiment with your composition - you never know whether an idea will work until you try it."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "header": "Predictions for the Future of Photography",
+    "quality": [
+      {
+        "title": "Future of Photography: Immersive Photography",
+        "img": "https://i.ibb.co/RNC5vvr/immersive-Photography.jpg",
+        "details": "Photography is an art form that has developed over 200 years. It has been used to depict important events. Or to create beautiful imagery. It’s used for work, and it’s used for pleasure. But until recently, photography has been limited to two dimensions. You could have the most powerful sensor in the world, but your photograph will always be 2D. 3D photography has been around for a long time. Stereo cameras came and went. And now, you can create 3D images with your smartphone. But 3D has always been a niche indulgence, a bit of a gimmick."
+      },
+      {
+        "title": "Constant Connectivity",
+        "img": "https://i.ibb.co/gSVJS13/constant-Connectivity.jpg",
+        "details": "One of the hottest topics with digital photography right now is connectivity.Over the last few years, we have seen DSLRs and Mirrorless cameras with wireless connections. Wi-Fi, Bluetooth and Near-Field Connectivity (NFC) now come as standard. Previously, you would tether your camera to your computer using a cable. You’d transfer the photos from your camera to your device using software such as Lightroom and Capture One. To share images, you’d have to send them from your computer. You’d have to send them via email or cloud storage programs like Dropbox. It was a time-consuming process."
+      },
+      {
+        "title": "The Rise of Vintage",
+        "img": "https://i.ibb.co/KhbFHRs/the-Riseof-Vintage.jpg",
+        "details": "With every new generation of digital cameras, we see higher resolutions and better specs. Digital cameras are more versatile and convenient than ever before. And yet, film photography still continues. Ok, it’s not as popular as it once was. But it’s far from dead. And with the developments of digital technology, if film was going to die, it would be dead already. Modern digital cameras are amazing. The possibilities make us feel like we’re already living in tomorrow’s world. But for some photographers, it’s not as satisfying."
+      },
+      {
+        "title": "Reduced Demand for Professionals",
+        "img": "https://i.ibb.co/WKbWNyh/reduced-Demand.jpg",
+        "details": "There are many ways to make a living as a photographer. From weddings to photojournalism, there are many ways your camera can generate income. But the photography industry is already starting to change. And in some cases, not for the better. For many photographers, the development of camera technology has been a blessing. They can be more productive and reduce outgoings. But it’s not all positive. Good cameras are easy to find and cheap to buy. Smartphones are even able to perform professional photography tasks, both when taking pictures and for post-processing."
+      },
+      {
+        "title": "AI Will Change Everything",
+        "img": "https://i.ibb.co/MPnbBw6/a-IChange-Everything.jpg",
+        "details": "Artificial intelligence (AI) is something we’re familiar with from science fiction films. They’re either set in the future. Or someone, or something, has traveled back in time. But AI is already with us. AI is already a feature in many modern cameras and lenses. But don’t worry. Your camera isn’t plotting to kill you and take over the world. Not yet anyway. The autofocus and image stabilization systems both use AI to achieve precise results, as does tracking and automatic exposure features. And similar AI software is being introduced to smartphone cameras and editing apps."
+      },
+      {
+        "title": "Smartphones Will Kill-off the Compact Camera",
+        "img": "https://i.ibb.co/4stccdn/Smartphones.jpg",
+        "details": "The future of photography isn’t bright for everyone. And this trend is already well on its way. I still have an Olympus compact camera. I use it all the time, and I love the results. But I know I am in an ever-shrinking minority. Since 2010, digital camera sales have fallen 80%. And it’s not because people are taking fewer photos. On the contrary, people are taking more photos than ever. But now everyone uses their smartphone. Why carry around an extra piece of gear when you already have a camera in your pocket? The first phone cameras were no match for a specialist compact. But now the tables have turned. And phone technology has progressed by leaps and bounds."
+      },
+      {
+        "title": "Death of the DSLR",
+        "img": "https://i.ibb.co/kBRt7hJ/deathofthe-DSLR.jpg",
+        "details": "Don’t get me wrong. DSLRs are great cameras. And the DSLR certainly won’t be victim to the swift and uncaring wrath of market forces in the same way as the digital compact. Nikon and Canon are still making excellent DSLRs that are popular with photographers. They’re creating machines that will continue to perform well for years to come. But the tide is beginning to turn. Mirrorless cameras are starting to dominate the headlines. They’re starting to break all the records for resolution and image quality."
+      }
+    ]
+  }
+]

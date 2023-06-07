@@ -1,58 +1,94 @@
-import React from 'react';
-import slOne from '../../../assets/1.jpg';
-import slTwo from '../../../assets/2.jpg';
-import slThree from '../../../assets/3.jpg';
-import slFour from '../../../assets/4.jpg';
-import slFive from '../../../assets/5.jpg';
-import slSix from '../../../assets/6.jpg';
-import CarouselItem from '../CarouselItem/CarouselItem';
-
-const carouselData = [
-    {
-        image: slOne,
-        prev: 6,
-        id: 1,
-        next: 2
-    }, {
-        image: slTwo,
-        prev: 1,
-        id: 2,
-        next: 3
-    }, {
-        image: slThree,
-        prev: 2,
-        id: 3,
-        next: 4
-    }, {
-        image: slFour,
-        prev: 3,
-        id: 4,
-        next: 5
-    }, {
-        image: slFive,
-        prev: 4,
-        id: 5,
-        next: 6
-    }, {
-        image: slSix,
-        prev: 5,
-        id: 6,
-        next: 1
-    }
-];
+import React from "react";
+import Slider from "react-slick";
+import "./Carousel.css";
 
 const Carousel = () => {
-    return (
-        <div className="carousel w-full h-3/4">
-
-            {
-                carouselData.map(data=> <CarouselItem
-                    key={data.id}
-                    data={data}
-                ></CarouselItem>)
-            }
+  const settings = {
+    autoplay: true,
+    speed: 2000,
+    autoplaySpeed: 2000,
+    cssEase: "linear",
+    dots: true,
+    fade: true,
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    initialSlide: 0,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
+  return (
+    <div className="h-96 rounded-md">
+      <Slider {...settings} className="h-full rounded-md">
+        <div className="h-full rounded-md">
+          <img
+            className="object-fill h-96 w-full rounded-md"
+            src="https://i.ibb.co/YZLBRhN/sl1.jpg"
+            alt=""
+          />
         </div>
-    );
+        <div className="h-full rounded-md">
+          <img
+            className="object-fill h-96 w-full rounded-md"
+            src="https://i.ibb.co/rc62Cf9/sl2.jpg"
+            alt=""
+          />
+        </div>
+        <div className="h-full rounded-md">
+          <img
+            className="object-fill h-96 w-full rounded-md"
+            src="https://i.ibb.co/2K8HdRt/sl3.jpg"
+            alt=""
+          />
+        </div>
+        <div className="h-full rounded-md">
+          <img
+            className="object-fill h-96 w-full rounded-md"
+            src="https://i.ibb.co/rZbrbsM/sl4.jpg"
+            alt=""
+          />
+        </div>
+        <div className="h-full rounded-md">
+          <img
+            className="object-fill h-96 w-full rounded-md"
+            src="https://i.ibb.co/zsrgDdL/sl5.jpg"
+            alt=""
+          />
+        </div>
+        <div className="h-full rounded-md">
+          <img
+            className="object-fill h-96 w-full rounded-md"
+            src="https://i.ibb.co/tschpvH/sl6.jpg"
+            alt=""
+          />
+        </div>
+      </Slider>
+    </div>
+  );
 };
 
 export default Carousel;
